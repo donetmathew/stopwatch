@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+font-family: sans-serif;
+font-size: 16px;
+background: black;
+}
+
+.timer{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.timer__controls{
+    margin-top: 40px;
+}
+
+.outer-circle{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 50%;
+}
+
+.inner-circle{
+    width: 270px;
+    height: 270px;
+    background: black;
+    border-radius: 50%;
+}
+
+.timer__clock{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 270px;
+    font-size:24px;
+}
+
+
